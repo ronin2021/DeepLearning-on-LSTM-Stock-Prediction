@@ -62,3 +62,20 @@ Closing Price (of BTC) as a predictor of Closing Price
 
 ![Windows3_Epochs15_Closing](Images/Windows3_Epochs15_Closing.png)
 
+### Technologies implemented
+Python, Scikit-Learn, Pandas, TensorFlow/Keras, and PyPlot.
+
+### Techniques Implemented
+Deep Learning, Recurrent Neural Networks with LSTM, Dense and droput fraction.
+
+### Inputs
+btc_historic.csv and btc_sentiment.csv files to import data.
+
+### Outputs
+Outputs are presented as plots and and numerical metrics to evaluate the models.
+
+### Remarks
+FNG as predictor for the BTC Closing Price in a gross sense is very poor. However some fluctuation both up/down can be seen in the predictive y values.
+Closing Price of BTC is comparatively better specially at short windows but still lags the Closing Price and may need a correction factor applied if we were to consider it as predictor. 
+Remarks
+None.
