@@ -17,7 +17,7 @@ Evaluation metrics were obtaind as loss and a graphical output of Real vs. Predi
 
 ## Model Comparison 
 
-### Which model has a lower loss?
+### 1. Which model has a lower loss?
 
 Lowest Loss is with the Closing Prices (of a given time window) to predict the BTC Closing price. That is Closing Prices were a better predictor than the FNG for the Closing Price of the BTC. See the tables below and the graphs below.
 
@@ -34,11 +34,11 @@ Lowest Loss is with the Closing Prices (of a given time window) to predict the B
 | 3 | 0.0898 | Best shape of the very bad coparision to Closing Price |
 
 
-### Which model tracks the actual values better over time?
+### 2. Which model tracks the actual values better over time?
 
 Clearly better predictions were from the the Closing Prices (of a given time window) to predict the BTC Closing price. As mentioned above the Closing Prices were a better predictor than the FNG for the Closing Price of the BTC. See the tables above and the graphs below.
 
-### Which window size works best for the model?
+### 3. Which window size works best for the model?
 
 For both models (FNG vs. Closing Prices to predict BTC future Closing Price) shorter the window better the predictability. We have compared Window length of 3 vs. a window length of 10 and clearly the window length of 3 gives better predictability. See the tables above and the graphs below.
 
